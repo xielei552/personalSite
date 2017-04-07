@@ -1,0 +1,205 @@
+.bg-foot{background-color:rgb(134, 147, 158);}
+.bg-grey{background-color: #f4f4f4;}
+.foot-font{ color: rgba(255, 255, 255, 0.702);}
+.f-c-white{color:#fff;}
+.f-c-dgrey{color: rgb(67, 72, 77);}
+.f-c-grey{color: rgb(134, 147, 158);}
+.f-c-green{color: #7DC855;}
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px #888888;
+  background-color: #fff;
+}
+.btn-circle:hover {
+    background-color: #f4f4f4;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto";
+}
+nav, header{
+    color: rgb(134, 147, 158);
+}
+nav a {
+    margin: 15px;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav-right-side {
+    float: right!important;
+    margin-right: -15px;
+}
+nav button, header button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(225, 232, 238);
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0);
+}
+nav button:hover, header button:hover {
+    background-color: rgb(134, 147, 158);
+    color: #fff;
+}
+header {text-align: center;}
+.header-heading, .section-4-heading, .section-5-heading {
+    font-size: 46px;
+    margin: 0 10px;
+}
+nav .custom-btn {
+    margin: 15px;
+    padding:10px;
+}
+header .custom-btn {
+    margin: 50px;
+    padding:20px;
+}
+.custom-link {
+    padding-top:5px;
+    padding-left: 30px;
+}
+/* end of header styling */
+
+.section-2-row {
+    padding:140px 0;
+}
+.section-2-heading {
+    font-size: 32px;
+    color: rgb(67, 72, 77);
+}
+#section-2 .custom-btn {
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: rgb(125, 200, 85);
+    color: #fff;
+}
+#section-2 .custom-btn:hover {
+    background-color: rgb(134, 147, 158);
+}
+.hr-btn {
+    padding: 0;
+  text-align: center;
+  margin: 25px auto 30px;
+}
+.hr-btn:after {
+    content: " ";
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+/* end of section-2 styling */
+.section-3-row {
+    padding:100px 0;
+}
+.section-3-silde {
+    padding: 30px 0;
+    float:left;
+}
+.section-3-silde-right {
+    padding: 30px 0;
+    float:right;
+}
+#section-3 .media-body {
+    padding-left: 50px
+}
+.media-heading, .section-thumbnail-heading {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.media-name {
+    margin-top: 50px;
+}
+/* end of section-3 styling */
+.section-4-row {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+#section-4 .heading-col {
+    padding:60px
+}
+#section-4 .caption {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#section-4 .thumbnail:hover {
+    border-color: rgb(134, 147, 158);
+}
+#section-4 .custom-btn {
+    background-color: #7dc855;
+    color:#fff;
+}
+#section-4 .custom-btn:hover {
+    background-color: rgb(134, 147, 158);
+}
+#section-4 .media-body {
+    padding-left: 5px;
+    text-align: left;
+}
+/* end of section-4 styling */
+.section-5-row {
+    padding:80px 0;
+}
+.section-5-content {
+    font-size: 22px;
+    line-height: 32px;
+}
+#section-5 .custom-btn {
+    background-color: #7dc855;
+}
+#section-5 .custom-btn:hover {
+    background-color: rgb(134, 147, 158);
+}
+/* end of section-5 styling */
+.foot-container {
+    padding:30px 0;
+    vertical-align: middle;
+}
+.footer-padding {
+    padding-top: 5px;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    padding:0 20px;
+}
+footer ul li a {
+    color: rgba(255, 255, 255, 0.702);
+}
+/* end of footer styling */
+@media only screen and (max-width: 992px) {
+    .text-md-center{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .text-sm-center{
+        text-align: center;
+    }
+    .section-4-row {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .section-5-row {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .header-heading, .section-4-heading, .section-5-heading {
+        font-size:30px;
+    }
+    .section-2-heading, #section-3 .meadia-heading, .section-thumbnail-heading,{
+        font-size: 20px;
+    }
+}
